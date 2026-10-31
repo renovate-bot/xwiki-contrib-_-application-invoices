@@ -1,0 +1,135 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<!--
+ * See the NOTICE file distributed with this work for additional
+ * information regarding copyright ownership.
+ *
+ * This is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as
+ * published by the Free Software Foundation; either version 2.1 of
+ * the License, or (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this software; if not, write to the Free
+ * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
+-->
+
+<xwikidoc version="1.3" reference="InvoicesCode.InvoicesTranslations" locale="da">
+  <web>InvoicesCode</web>
+  <name>InvoicesTranslations</name>
+  <language>da</language>
+  <defaultLanguage>en</defaultLanguage>
+  <translation>1</translation>
+  <creator>xwiki:XWiki.Admin</creator>
+  <parent>InvoiceClass</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <version>1.1</version>
+  <title/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>plain/1.0</syntaxId>
+  <hidden>true</hidden>
+  <content># Class fields
+### Missing: InvoicesCode.InvoiceClass_number=
+### Missing: InvoicesCode.InvoiceClass_customer_user=
+### Missing: InvoicesCode.InvoiceClass_customer_company=
+### Missing: InvoicesCode.InvoiceClass_customer_name=
+### Missing: InvoicesCode.InvoiceClass_customer_address=
+### Missing: InvoicesCode.InvoiceClass_date=
+### Missing: InvoicesCode.InvoiceClass_product=
+### Missing: InvoicesCode.InvoiceClass_price=
+### Missing: InvoicesCode.InvoiceClass_vat=
+### Missing: InvoicesCode.InvoiceClass_currency=
+### Missing: InvoicesCode.InvoiceClass_extra=
+### Missing: InvoicesCode.InvoiceClass_type=
+### Missing: InvoicesCode.InvoiceClass_type_invoice=
+### Missing: InvoicesCode.InvoiceClass_type_reimbursement=
+### Missing: InvoicesCode.InvoiceCustomerClass_customer_user=
+### Missing: InvoicesCode.InvoiceCustomerClass_customer_email=
+### Missing: InvoicesCode.InvoiceCustomerClass_customer_address=
+### Missing: InvoicesCode.InvoiceCustomerClass_customer_name=
+### Missing: InvoicesCode.InvoiceCustomerClass_customer_company=
+### Missing: InvoicesCode.InvoiceProductClass_product=
+### Missing: InvoicesCode.InvoiceProductClass_price=
+### Missing: InvoicesCode.InvoiceProductClass_vat=
+### Missing: InvoicesCode.InvoiceProductTemplateClass_product=
+### Missing: InvoicesCode.InvoiceProductTemplateClass_price=
+### Missing: InvoicesCode.InvoiceProductTemplateClass_vat=
+### Missing: InvoicesCode.InvoiceProductTemplateClass_type=
+### Missing: InvoicesCode.InvoiceProductTemplateClass_type_invoice=
+### Missing: InvoicesCode.InvoiceProductTemplateClass_type_reimbursement=
+
+# Live table generic keys
+### Missing: invoices.livetable.doc.title=
+### Missing: invoices.livetable.doc.name=
+### Missing: invoices.livetable.doc.space=
+### Missing: invoices.livetable.doc.fullname=
+### Missing: invoices.livetable.doc.author=
+### Missing: invoices.livetable.doc.creator=
+### Missing: invoices.livetable.doc.date=
+### Missing: invoices.livetable.doc.creationDate=
+### Missing: invoices.livetable._avatar=
+### Missing: invoices.livetable._images=
+### Missing: invoices.livetable._attachments=
+### Missing: invoices.livetable._actions=
+### Missing: invoices.livetable._actions.edit=
+### Missing: invoices.livetable._actions.delete=
+### Missing: invoices.livetable.emptyvalue=
+
+# Live table specific keys
+### Missing: invoices.livetable.number=
+### Missing: invoices.livetable.customer_user=
+### Missing: invoices.livetable.customer_company=
+### Missing: invoices.livetable.customer_name=
+### Missing: invoices.livetable.customer_address=
+### Missing: invoices.livetable.date=
+### Missing: invoices.livetable.vat=
+### Missing: invoices.livetable.currency=
+### Missing: invoices.livetable.totalPrice=
+### Missing: invoices.livetable.type=
+### Missing: invoices.livetable.firstProduct=
+
+# UI
+### Missing: invoices.description=
+### Missing: invoices.actions=
+### Missing: invoices.actions.invoice=
+### Missing: invoices.actions.invoice.empty=
+### Missing: invoices.actions.reimbursement=
+### Missing: invoices.actions.reimbursement.empty=
+### Missing: invoices.invoices=
+
+# User profile
+### Missing: platform.core.profile.category.invoices=
+### Missing: platform.core.profile.section.invoicesManagement=
+### Missing: platform.core.profile.section.invoicesElements=
+
+# Sheet
+### Missing: invoices.invoice.name=
+### Missing: invoices.reimbursement.name=
+### Missing: invoices.export.pdf=
+### Missing: invoices.edit.showmessage=
+### Missing: invoices.edit.hidemessage=
+### Missing: invoices.edit.totalAuto=
+### Missing: invoices.edit.vatValue=
+### Missing: invoices.vatPercent=
+### Missing: invoices.totalWithTaxes=
+### Missing: invoices.totalWithoutTaxes=
+### Missing: invoices.sheet.action.reimbursement.button=
+### Missing: invoices.sheet.action.reimbursement.error=
+### Missing: invoices.sheet.action.reimbursement.comment=
+### Missing: invoices.sheet.action.cancel.button=
+### Missing: invoices.sheet.action.cancel.label=
+### Missing: invoices.sheet.action.cancel.success=
+### Missing: invoices.sheet.action.cancel.comment=
+
+# Misc
+### Missing: invoices.addcustomerobject=
+</content>
+</xwikidoc>
