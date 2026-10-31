@@ -37,99 +37,99 @@
   <syntaxId>plain/1.0</syntaxId>
   <hidden>true</hidden>
   <content># Class fields
-### Missing: InvoicesCode.InvoiceClass_number=
-### Missing: InvoicesCode.InvoiceClass_customer_user=
-### Missing: InvoicesCode.InvoiceClass_customer_company=
-### Missing: InvoicesCode.InvoiceClass_customer_name=
-### Missing: InvoicesCode.InvoiceClass_customer_address=
-### Missing: InvoicesCode.InvoiceClass_date=
-### Missing: InvoicesCode.InvoiceClass_product=
-### Missing: InvoicesCode.InvoiceClass_price=
-### Missing: InvoicesCode.InvoiceClass_vat=
-### Missing: InvoicesCode.InvoiceClass_currency=
-### Missing: InvoicesCode.InvoiceClass_extra=
-### Missing: InvoicesCode.InvoiceClass_type=
-### Missing: InvoicesCode.InvoiceClass_type_invoice=
-### Missing: InvoicesCode.InvoiceClass_type_reimbursement=
-### Missing: InvoicesCode.InvoiceCustomerClass_customer_user=
-### Missing: InvoicesCode.InvoiceCustomerClass_customer_email=
-### Missing: InvoicesCode.InvoiceCustomerClass_customer_address=
-### Missing: InvoicesCode.InvoiceCustomerClass_customer_name=
-### Missing: InvoicesCode.InvoiceCustomerClass_customer_company=
-### Missing: InvoicesCode.InvoiceProductClass_product=
-### Missing: InvoicesCode.InvoiceProductClass_price=
-### Missing: InvoicesCode.InvoiceProductClass_vat=
-### Missing: InvoicesCode.InvoiceProductTemplateClass_product=
-### Missing: InvoicesCode.InvoiceProductTemplateClass_price=
-### Missing: InvoicesCode.InvoiceProductTemplateClass_vat=
-### Missing: InvoicesCode.InvoiceProductTemplateClass_type=
-### Missing: InvoicesCode.InvoiceProductTemplateClass_type_invoice=
-### Missing: InvoicesCode.InvoiceProductTemplateClass_type_reimbursement=
+InvoicesCode.InvoiceClass_number=Fakturanummer
+InvoicesCode.InvoiceClass_customer_user=Kunde
+InvoicesCode.InvoiceClass_customer_company=Kundens firmanavn
+InvoicesCode.InvoiceClass_customer_name=Kundens navn
+InvoicesCode.InvoiceClass_customer_address=Kundens adresse
+InvoicesCode.InvoiceClass_date=Dato
+InvoicesCode.InvoiceClass_product=Produkt/tjenesteydelse
+InvoicesCode.InvoiceClass_price=Pris (ekskl. moms)
+InvoicesCode.InvoiceClass_vat=Moms
+InvoicesCode.InvoiceClass_currency=Valuta
+InvoicesCode.InvoiceClass_extra=Ekstra
+InvoicesCode.InvoiceClass_type=Type
+InvoicesCode.InvoiceClass_type_invoice=Faktura
+InvoicesCode.InvoiceClass_type_reimbursement=Refusion
+InvoicesCode.InvoiceCustomerClass_customer_user=Kunde (anden bruger)
+InvoicesCode.InvoiceCustomerClass_customer_email=Kundens e-mail
+InvoicesCode.InvoiceCustomerClass_customer_address=Kundens adresse
+InvoicesCode.InvoiceCustomerClass_customer_name=Kundens navn
+InvoicesCode.InvoiceCustomerClass_customer_company=Kundens firmanavn
+InvoicesCode.InvoiceProductClass_product=Produkt/tjenesteydelse
+InvoicesCode.InvoiceProductClass_price=Pris
+InvoicesCode.InvoiceProductClass_vat=Moms
+InvoicesCode.InvoiceProductTemplateClass_product=Produkt/tjenesteydelse
+InvoicesCode.InvoiceProductTemplateClass_price=Pris (ekskl. moms)
+InvoicesCode.InvoiceProductTemplateClass_vat=Moms
+InvoicesCode.InvoiceProductTemplateClass_type=Type
+InvoicesCode.InvoiceProductTemplateClass_type_invoice=Faktura
+InvoicesCode.InvoiceProductTemplateClass_type_reimbursement=Refusion
 
 # Live table generic keys
-### Missing: invoices.livetable.doc.title=
-### Missing: invoices.livetable.doc.name=
-### Missing: invoices.livetable.doc.space=
-### Missing: invoices.livetable.doc.fullname=
-### Missing: invoices.livetable.doc.author=
-### Missing: invoices.livetable.doc.creator=
-### Missing: invoices.livetable.doc.date=
-### Missing: invoices.livetable.doc.creationDate=
-### Missing: invoices.livetable._avatar=
-### Missing: invoices.livetable._images=
-### Missing: invoices.livetable._attachments=
-### Missing: invoices.livetable._actions=
-### Missing: invoices.livetable._actions.edit=
-### Missing: invoices.livetable._actions.delete=
-### Missing: invoices.livetable.emptyvalue=
+invoices.livetable.doc.title=Titel
+invoices.livetable.doc.name=Navn
+invoices.livetable.doc.space=Område
+invoices.livetable.doc.fullname=Fulde navn
+invoices.livetable.doc.author=Forfatter
+invoices.livetable.doc.creator=Opretter
+invoices.livetable.doc.date=Opdateringsdato
+invoices.livetable.doc.creationDate=Oprettelsesdato
+invoices.livetable._avatar=Avatar
+invoices.livetable._images=Billeder
+invoices.livetable._attachments=Bilag
+invoices.livetable._actions=Handlinger
+invoices.livetable._actions.edit=Rediger
+invoices.livetable._actions.delete=Slet
+invoices.livetable.emptyvalue=-
 
 # Live table specific keys
-### Missing: invoices.livetable.number=
-### Missing: invoices.livetable.customer_user=
-### Missing: invoices.livetable.customer_company=
-### Missing: invoices.livetable.customer_name=
-### Missing: invoices.livetable.customer_address=
-### Missing: invoices.livetable.date=
-### Missing: invoices.livetable.vat=
-### Missing: invoices.livetable.currency=
-### Missing: invoices.livetable.totalPrice=
-### Missing: invoices.livetable.type=
-### Missing: invoices.livetable.firstProduct=
+invoices.livetable.number=Nummer
+invoices.livetable.customer_user=Kunde
+invoices.livetable.customer_company=Firmanavn
+invoices.livetable.customer_name=Kundens navn
+invoices.livetable.customer_address=Kundens adresse
+invoices.livetable.date=Dato
+invoices.livetable.vat=Moms
+invoices.livetable.currency=Valuta
+invoices.livetable.totalPrice=I alt (ekskl. moms)
+invoices.livetable.type=Type
+invoices.livetable.firstProduct=Produkt/tjenesteydelse
 
 # UI
-### Missing: invoices.description=
-### Missing: invoices.actions=
-### Missing: invoices.actions.invoice=
-### Missing: invoices.actions.invoice.empty=
-### Missing: invoices.actions.reimbursement=
-### Missing: invoices.actions.reimbursement.empty=
-### Missing: invoices.invoices=
+invoices.description=Program til at administrere og oprette nye fakturaer (eller refusioner). Det sender også notifikationer pr. mail om nye fakturaer.
+invoices.actions=Handlinger
+invoices.actions.invoice=Ny faktura
+invoices.actions.invoice.empty=Tom
+invoices.actions.reimbursement=Ny refusion
+invoices.actions.reimbursement.empty=Tom
+invoices.invoices=Fakturaer
 
 # User profile
-### Missing: platform.core.profile.category.invoices=
-### Missing: platform.core.profile.section.invoicesManagement=
-### Missing: platform.core.profile.section.invoicesElements=
+platform.core.profile.category.invoices=Fakturaer
+platform.core.profile.section.invoicesManagement=Kunde
+platform.core.profile.section.invoicesElements=Fakturaer
 
 # Sheet
-### Missing: invoices.invoice.name=
-### Missing: invoices.reimbursement.name=
-### Missing: invoices.export.pdf=
-### Missing: invoices.edit.showmessage=
-### Missing: invoices.edit.hidemessage=
-### Missing: invoices.edit.totalAuto=
-### Missing: invoices.edit.vatValue=
-### Missing: invoices.vatPercent=
-### Missing: invoices.totalWithTaxes=
-### Missing: invoices.totalWithoutTaxes=
-### Missing: invoices.sheet.action.reimbursement.button=
-### Missing: invoices.sheet.action.reimbursement.error=
-### Missing: invoices.sheet.action.reimbursement.comment=
-### Missing: invoices.sheet.action.cancel.button=
-### Missing: invoices.sheet.action.cancel.label=
-### Missing: invoices.sheet.action.cancel.success=
-### Missing: invoices.sheet.action.cancel.comment=
+invoices.invoice.name=Faktura {0}
+invoices.reimbursement.name=Refusion {0}
+invoices.export.pdf=Eksportér som PDF
+invoices.edit.showmessage=Rediger kundeoplysninger
+invoices.edit.hidemessage=Skjul kundeoplysninger
+invoices.edit.totalAuto=automatisk beregnet I ALT
+invoices.edit.vatValue=Moms – beregnet automatisk
+invoices.vatPercent=Moms {0} %
+invoices.totalWithTaxes=I alt (inkl. moms)
+invoices.totalWithoutTaxes=I alt (ekskl. moms)
+invoices.sheet.action.reimbursement.button=Refundér
+invoices.sheet.action.reimbursement.error=Refusionen kunne ikke oprettes
+invoices.sheet.action.reimbursement.comment=Refusion af faktura {}
+invoices.sheet.action.cancel.button=Annuller
+invoices.sheet.action.cancel.label=Faktura annulleret
+invoices.sheet.action.cancel.success=Fakturaen er annulleret
+invoices.sheet.action.cancel.comment=Annullering af faktura
 
 # Misc
-### Missing: invoices.addcustomerobject=
+invoices.addcustomerobject=Tilføj nyt kundeobjekt
 </content>
 </xwikidoc>
